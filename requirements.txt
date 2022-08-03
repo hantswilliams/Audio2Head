@@ -1,3 +1,7 @@
+torch 
+torchvision 
+torchaudio --extra-index-url https://download.pytorch.org/whl/cpu
+ffmpeg-python
 scikit-image
 python_speech_features
 pyworld
