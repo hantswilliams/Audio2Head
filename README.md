@@ -1,5 +1,16 @@
 # Audio2Head: Audio-driven One-shot Talking-head Generation with Natural Head Motion (IJCAI 2021)
 
+
+## hants notes 
+- updated requirements.txt file to include pytorch and ffmpeg 
+- if running on aws/ec2 -> need to first then do: 
+    - `sudo apt-get update` 
+    - `sudo apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6` 
+- then run: 
+    - `pip3 install -r requirements.txt` 
+
+
+
 #### [Paper](https://www.ijcai.org/proceedings/2021/0152.pdf) | [Demo](https://www.youtube.com/watch?v=xvcBJ29l8rA)
 
 #### Requirements
