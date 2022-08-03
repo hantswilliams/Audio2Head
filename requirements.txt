@@ -8,3 +8,4 @@ imageio
 scipy
 pyworld
 opencv-python
+imageio-ffmpeg

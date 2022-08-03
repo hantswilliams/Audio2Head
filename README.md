@@ -10,6 +10,8 @@
     - `sudo apt-get install -y libglib2.0-0 libsm6 libxrender1 libxext6` 
 - then download this github project (`git clone xyz`)
 - can then move the manual files/e.g., 700mb+ // the checkpoints folder 
+    - origin: `https://nhit-public.s3.us-east-2.amazonaws.com/checkpoints.zip` 
+    - get it: `wget --no-check-certificate --no-proxy https://nhit-public.s3.us-east-2.amazonaws.com/checkpoints.zip` 
     - `scp -r data/ nhit_pytorch:/home/ubuntu/Audio2Head/checkpoints/` 
 - then run: 
     - `sudo apt install python3-pip`  # have removed toch, torchaudio, torchvision - as those are already installed 
