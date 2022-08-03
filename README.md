@@ -20,6 +20,13 @@
     - `python inference.py --audio_path demo/audio/intro.wav --img_path demo/img/trump.jpg`
 
 
+## Other notes 
+- added in a changingImgSize script to resize images to 256x256 
+- looks like audio file needs to be `intro.wave` - need to try and solve for that later 
+- in the orig github repo, someone gave example how to not run on GPU and enable CPU only - should look at that, see if can add that as a parameter to the run script 
+
+
+
 #### [Paper](https://www.ijcai.org/proceedings/2021/0152.pdf) | [Demo](https://www.youtube.com/watch?v=xvcBJ29l8rA)
 
 #### Requirements
